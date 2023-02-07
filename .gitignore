@@ -35,3 +35,6 @@ npm-debug.log*
 # Cache
 .eslintcache
 .stylelintcache
+
+# Info
+tsconfig.tsbuildinfo
