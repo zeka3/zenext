@@ -70,6 +70,13 @@ module.exports = {
         memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
       },
     ],
+    'react/function-component-definition': [
+      'error',
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function',
+      },
+    ],
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': ['error'],
     'jsx-a11y/click-events-have-key-events': 'off',
